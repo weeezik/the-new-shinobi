@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Major Mono Display');
 
+/* div {
+  border: solid white;
+} */
+
 body {
   position: relative;
   width: 1280px;
@@ -7,8 +11,29 @@ body {
   background: linear-gradient(180deg, #744F00 0%, #74005F 100%);
 }
 
+h1 {
+  position: absolute;
+  width: 948px;
+  height: 64px;
+  left: calc(50% - 948px/2);
+  top: 56px;
+  
+  font-family: 'Major Mono Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  /* identical to box height */
+  
+  color: #46E840;
+  /* border: solid white; */
+  }
+
 #leftside-code {
-  /* Shinobi’s support each other Shinobi’s strive for peace - in all villages Shinobi’s must demonstate continuous progress */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
 position: absolute;
 width: 371px;
 height: 395px;
@@ -23,23 +48,44 @@ line-height: 30px;
 /* or 150% */
 
 color: #46E840;
-border: solid white;
+/* border: solid white; */
 }
 
-h1 {
+#rightside-code {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
 position: absolute;
-width: 948px;
-height: 64px;
-left: calc(50% - 948px/2);
-top: 84px;
+width: 407px;
+height: 480px;
+left: 638px;
+top: 227px;
+
+font-family: 'Major Mono Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+color: #46E840;
+/* border: solid white; */
+}
+
+h2 {
+position: absolute;
+width: 1090px;
+height: 150px;
+left: calc(50% - 1090px/2);
+top: 949px;
 
 font-family: 'Major Mono Display';
 font-style: normal;
 font-weight: 400;
 font-size: 64px;
-line-height: 64px;
-/* identical to box height */
+line-height: 75px;
+/* or 117% */
 
 color: #46E840;
-border: solid white;
 }
