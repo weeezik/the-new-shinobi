@@ -15,7 +15,7 @@
 ### Deployment
 - Netlify
 ### Domain
-- either newshinobi.com or newshinobi.live
+- Either newshinobi.com or newshinobi.live
 ## Inspiration
 ### Questions
 How do we come up with cultural mechanisms to defend our psychological and cultural
